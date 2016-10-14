@@ -1,1 +1,2 @@
-# introtodl4japi
+Deeplearning4J Exercises 
+=========================
