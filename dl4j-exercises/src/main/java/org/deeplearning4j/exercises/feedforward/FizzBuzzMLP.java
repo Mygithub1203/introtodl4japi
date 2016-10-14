@@ -127,8 +127,6 @@ public class FizzBuzzMLP {
         for ( int n = 0; n < nEpochs; n++) {
             while (trainIter.hasNext()) {
                 DataSet tr = trainIter.next();
-                tr.shuffle();
-                seed++;
                 model.fit(tr);
             }
             trainIter.reset();
