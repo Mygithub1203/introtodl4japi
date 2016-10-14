@@ -1,0 +1,8 @@
+2016-10-14 16:56:12,834 - [INFO] - from org.nd4j.nativeblas.NativeOps in main
+                
+Number of threads used for NativeOps: 4
+
+2016-10-14 16:56:12,864 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 4
+

@@ -19,6 +19,7 @@ import org.nd4j.linalg.indexing.NDArrayIndex;
 
     References:
     Excellent exercises by Alex in the dl4j-exercises repo
+	https://github.com/deeplearning4j/dl4j-examples/tree/master/nd4j-examples/src/main/java/org/nd4j/examples
     Also these -
     http://nd4j.org/documentation
     http://nd4j.org/userguide

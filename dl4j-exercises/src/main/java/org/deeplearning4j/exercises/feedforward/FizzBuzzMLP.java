@@ -35,23 +35,24 @@ public class FizzBuzzMLP {
           STEP0: Run through the MLP linear classifier
                         from the example repo
             This exercise follows that example pretty closely.
+		https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/feedforward/classification/MLPClassifierLinear.java
         ==========================================================*/
 
         //0a. declare final variables and class?? variables
         int numInputs = 10;
         int numOutputs = 4;
 
-        //*int numHiddenNodes = 200;
-        int numHiddenNodes = 100;
+        int numHiddenNodes = 200;
+        //int numHiddenNodes = 100;
 
         double learningRate = 0.01;
-        //*int nEpochs = 1000;
-        int nEpochs = 10000;
+        int nEpochs = 1000;
+        //int nEpochs = 10000;
         int iterations = 1;
         int seed = 123;
         //int batchSize = 128;
-        //*int batchSize = 64;
-        int batchSize = 256;
+        int batchSize = 64;
+        //int batchSize = 256;
 
         /*=========================================================
             STEP1: Load csv into a dataset/datasetiterator
@@ -149,6 +150,8 @@ public class FizzBuzzMLP {
             eval.eval(lables, predicted);
 
         }
+        //A less verbose method here is:
+        //model.evaluate(testIter);
 
         //4b. Print evaluation statistics
         System.out.println(eval.stats());
