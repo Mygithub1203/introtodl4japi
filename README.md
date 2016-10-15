@@ -87,7 +87,8 @@ public class Nd4jExercises {
 ```
 
 ## II. Build your own MLP - FizzBUzz
-This exercise follows this example pretty closely. Use it for reference! 
+This exercise follows this example pretty closely. Use it for reference!  
+  
 https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4jexamples/src/main/java/org/deeplearning4j/examples/feedforward/classification/MLPClassifierLinear.java
 
 ```java
