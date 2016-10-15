@@ -14,10 +14,6 @@ References:
     http://nd4j.org/userguide  
 
 `public class Nd4jExercises {
-    public static int k = 6;
-    public static int l = 2;
-    public static int m = 4;
-    public static int n = 3;
 
     public static void main(String[] args) {
         /*==============================================================================================
@@ -162,5 +158,4 @@ https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/ma
 
 `public class FizzBuzzRNN {
 
-}
-`
+}`
