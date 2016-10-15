@@ -1,16 +1,17 @@
-# Deeplearning4J Exercises 
-# =========================
+# Introduction to the Deeplearning4J API 
+
 ## I. GETTING TO KNOW ND4J (numpy for java)
 
-The main objective here is to familiarize oneself with the nd4j api.
-NDArrays are n-dimensional arrays. Datasets, weights/biases are all ultimately build with NDArrays.
-Obviously these questions are construed, but I find yourself relying on operations like this when I am writing tests for new functionality I have added.
-References:
-    Excellent exercises by Alex in the dl4j-exercises repo
-    https://github.com/deeplearning4j/dl4j-examples/tree/master/nd4j-examples/src/main/java/org/nd4j/examples
-    Also these -
-    http://nd4j.org/documentation
-    http://nd4j.org/userguide
+The main objective here is to familiarize oneself with the nd4j api.  
+NDArrays are n-dimensional arrays. Datasets, weights/biases are all ultimately build with NDArrays.  
+Obviously these questions are somewhat contrived but the goal here is to get thoroughly comfortable with the API.  
+
+References:  
+    Excellent exercises by Alex in the dl4j-exercises repo  
+    https://github.com/deeplearning4j/dl4j-examples/tree/master/nd4j-examples/src/main/java/org/nd4j/examples  
+    Also these -  
+    http://nd4j.org/documentation  
+    http://nd4j.org/userguide  
 
 `public class Nd4jExercises {
     public static int k = 6;
@@ -88,7 +89,8 @@ References:
 }`
 
 ## II. BUILD YOUR OWN MLP - FIZZBUZZ
-
+This exercise follows this example pretty closely. Use it for reference! 
+https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4jexamples/src/main/java/org/deeplearning4j/examples/feedforward/classification/MLPClassifierLinear.java
 
 `public class FizzBuzzMLP {
 
@@ -96,9 +98,7 @@ References:
     public static void main(String[] args) throws Exception {
         /*=========================================================
           STEP0: Run through the MLP linear classifier
-                        from the example repo
-            This exercise follows that example pretty closely.
-		https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/feedforward/classification/MLPClassifierLinear.java
+                        from the example repo if you haven't already
         ==========================================================*/
 
         //0a. declare necessary variables
@@ -157,11 +157,10 @@ References:
 
 ## III. GO THE EXTRAMILE - FIZZBUZZ as a sequence (1,15), Build an RNN to memorize this sequence
 
+You can use this example for reference which is very similar (memorize a string)  
+https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/recurrent/basic/BasicRNNExample.java  
+
 `public class FizzBuzzRNN {
-
-    // You can use this example for reference which is very similar (memorize a string)
-	// https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/recurrent/basic/BasicRNNExample.java
-
 
 }
 `
