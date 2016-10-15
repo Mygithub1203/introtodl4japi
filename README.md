@@ -13,7 +13,8 @@ References:
     http://nd4j.org/documentation  
     http://nd4j.org/userguide  
 
-`public class Nd4jExercises {
+```java
+public class Nd4jExercises {
 
     public static void main(String[] args) {
         /*==============================================================================================
@@ -82,13 +83,15 @@ References:
        ================================================================================================*/
     }
 
-}`
+}
+```
 
 ## II. BUILD YOUR OWN MLP - FIZZBUZZ
 This exercise follows this example pretty closely. Use it for reference! 
 https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4jexamples/src/main/java/org/deeplearning4j/examples/feedforward/classification/MLPClassifierLinear.java
 
-`public class FizzBuzzMLP {
+```java
+public class FizzBuzzMLP {
 
 
     public static void main(String[] args) throws Exception {
@@ -149,13 +152,16 @@ https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4jexamples/src/mai
     }
 
 
-}`
+}
+```
 
 ## III. GO THE EXTRAMILE - FIZZBUZZ as a sequence (1,15), Build an RNN to memorize this sequence
 
 You can use this example for reference which is very similar (memorize a string)  
 https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/recurrent/basic/BasicRNNExample.java  
 
-`public class FizzBuzzRNN {
+```java
+public class FizzBuzzRNN {
 
-}`
+}
+```
